@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>App Contador y Cronómetro</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <img src="tannn.jpg" alt="Imagen">
+    <div class="counters">
+      <div class="counter red">
+        <h2>Rojo</h2>
+        <p id="red-counter">0</p>
+        <button onclick="incrementar('red')">Incrementar Rojo</button>
+      </div>
+      <div class="counter blue">
+        <h2>Azul</h2>
+        <p id="blue-counter">0</p>
+        <button onclick="incrementar('blue')">Incrementar Azul</button>
+      </div>
+      <div class="timer">
+        <h2>Cronómetro</h2>
+        <p id="timer">00:00</p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
